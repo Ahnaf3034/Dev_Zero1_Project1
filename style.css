@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Button */
+.button1{
+    background-color: #db5456;
+    color: white;
+    padding: 13px 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    margin-top: 20px ;
+}
+/* Header start */
+.header{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 80px 120px;
+}
+.header .header_txt{
+    float: left;
+    width: 50%;
+}
+.header .header_txt h1{
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+.header .header_txt h1 span{
+    font-size: 80px;
+    color: #db5456;
+}
+.header .header_txt p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.header .header_img{
+    float: right;
+    width: 50%;
+    padding-left: 40px;
+}
+.header .header_img img{
+    height: 400px;
+    /* width: 90%; */
+    border-radius: 50%;
+}
+/* Header End */
+/* Breakfast start */
+.breakfast{
+    height: 600px;
+    background-color: #eee;
+    padding: 80px 120px;
+    margin: 20px;
+}
+.breakfast .form_container{
+    float: left;
+    width: 30%;
+}
+.breakfast .breakfast_form{
+  width: 350px;
+  background-color: #fff;
+  height: 300px;
+  padding: 40px;
+  margin: 50px 0 0 50px;
+  position: absolute;
+}
+.breakfast .breakfast_form h2{
+    text-transform: lowercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .breakfast .breakfast_form p{
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+.breakfast .breakfast_img{
+    float: right;
+    width: 70%;
+}
+.breakfast .breakfast_img img{
+    width: 100%;
+    height: 500px;
+    
+}
+/* Breakfast end */
+
+/* fast food start */
+.fast_food{
+    background-image: url(./fastfood.jpg);
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.fastfood_left{
+    padding: 180px 200px;
+}
+.fastfood_left h1{
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+.fastfood_left p{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-style: bold;
+}
+/* fast food end */
+/* Delivary Start */
+.delivary{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    padding: 80px 120px;
+}
+.delivary .delivary_img{
+   float: left;
+   width: 50%;
+}
+.delivary .delivary_img img{
+    position: relative;
+    width: 80%;
+    border-radius: 50%;
+    right: -125px;
+    padding-left: 20px;
+ }
+ .delivary .delivary_container{
+    float: right;
+    width: 50%;
+ }
+ .delivary .delivary_txt{
+  width: 650px;
+  background-color: #eee;
+  height: 500px;
+  padding: 40px;
+  color: black;
+ }
+ .delivary .delivary_txt h2{
+    text-transform: lowercase;
+    font-size: 35px;
+    letter-spacing: 2px;
+   }
+ .delivary .delivary_txt p{
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 20px 0 10px 0;
+   }
+ /* Delivary End */
+ /* Subscribe start */
+.subscribe{
+    height: 600px;
+    background-color: black;
+    width: 100%;
+    padding: 80px 120px;
+}
+.subscribe .subs_img{
+    float: left;
+    width: 50%;
+}
+.subscribe .subs_img img{
+    width: 70%;
+    height: 450px;
+}
+.subscribe .subs_form{
+    float: right;
+    width: 50%;
+}
+.subscribe .subs_txt{
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.subscribe .subs_txt h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 0 0 0 50px;
+}
+.subscribe .subs_txt p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.subscribe .subs_txt form input{
+    height: 40px;
+    width: 40%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.button2{
+    border-radius: 0;
+}
+.subscribe .subs_txt ul{
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-left: 80px;
+    margin: 20px;
+    text-align: center;
+}
+.subscribe .subs_txt li{
+    font-size: 15px;
+    margin-top: 10px;
+    list-style: none;
+}
